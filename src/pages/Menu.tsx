@@ -5,15 +5,42 @@ function Menu() {
   return (
 <div className="container mx-auto"> 
 
-      <div className="py-32 px-60" id="menu-section">
+      <div className="pt-32 px-60" id="menu-section">
         <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Menu</h1>
-          <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">We pride ourselves on bringing the best coffee to the heart of Dunedin. We offer a daily assortment of fresh baked goods and our Award Winning Chocolate Caramel Brownie.
+          <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed"> We source most of our ingredients locally and also use our neighbours at the Otago Farmers Market, Evansdale Cheese, Cairnmuir Central Otago olive oil & fresh fruit & vegetables throughout our changing seasons.
           <br></br>
           <br></br>
-          Our dog-friendly outdoor seating area means you can bring along your best friend to enjoy a puppuccino and choose from a selection of dog-friendly treats (including grain-free options).</p>
+          Our cabinet is always stocked with a full range of sweet and savouury treats. Don't miss our Award Winning Chocolate Caramel Brownie, dog-safe treats and puppuccino available on request.</p>
       </div>
 
-  <img src='/images/beans-and-press-trimmed.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="w-full"></img>
+<div className="pb-32 px-40">
+      <p className="font-bold text-text-grey font-serif text-xl p-5 leading-relaxed underline">All Day Menu:</p>
+      <div className="grid grid-cols-2">
+        <div>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Free Range Eggs on Toast</h2> - Any style on toasted ciabatta.</p>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Raw Fruity Natural Muesli</h2> - Natural muesli, berry coulis, natural yoghurt & a jug of full creamy milk</p>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Buttermilk Pancakes</h2> - Fluffy buttermilk pancakes served with crispy bacon, sliced fresh banana & maple
+syrup or berry coulis & yoghurt.</p>
+<p className="font-mediuum text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>French Toast</h2> - Aretzel bread, fresh fruit, maple syrup or berry coulis & yoghurt.</p>
+        </div>
+
+
+        <div>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Beef or Chicken & Bacon Burger</h2> - Angus prime beef burger or fried chicken, bacon, grilled
+smoked cheese, tomato mild chilli jam, gherkin, & served with fries.</p>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Pork Sliders</h2> - Slow cooked pork shoulder rubbed with tex mex spices, pulled and mixed in sauce, served with fries</p>
+        <p className="font-medium text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Dukkah Crumbed Camembert</h2> - Cilli plum sauce, hazelnut and apple salad, pickled beetroot.</p>
+<p className="font-mediuum text-text-grey font-serif text-lg px-10 py-5 leading-relaxed"><h2 className='text-bean'>Blue Cod</h2> - Locally caught blue cod in a Speights beer batter served with fries, slaw & tartare.</p>
+
+
+</div>
+      </div>
+<div>
+<h2 className='font-medium text-bean font-serif text-lg px-10 py-5 leading-relaxed text-center italic'>A range of 2-3 seasonal menu items will be added depending on locally sources produce, call or visit to find out more.</h2></div>
+</div>
+     
+
+  <img src='/images/stabbed.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="w-full"></img>
 
 
 </div>

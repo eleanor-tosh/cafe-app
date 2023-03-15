@@ -7,7 +7,7 @@ function Home() {
 
     <div className="py-32 px-60">
       <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Broko Bean, a little cafe with a big heart. Come and visit us for the best coffee you will experience in Dunedin.</h1>
-        <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">We welcome all and can cater to most food allergies/intolerances. Dog friendly. No smoking. Wheelchair accessable. Outdoor seating area with cover.
+        <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">We welcome all and can cater to most food allergies/intolerances. Dog friendly. No smoking. Wheelchair accessable. Outdoor seating area with cover and heating for those colder days.
         <br></br>
         <br></br>
         Opening Hours:
@@ -16,6 +16,8 @@ function Home() {
           <li>Saturday: 7am-10pm</li>
           <li>Sunday: 8am-3pm</li>
         </ul>
+        <br></br>
+        Live music Saturdays from 5pm.
         </p>
     </div>
 

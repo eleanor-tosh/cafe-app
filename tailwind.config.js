@@ -8,6 +8,9 @@ module.exports = {
         'text-grey': '#5f5b5a',
         bean: '#c98d50',
       },
+      backgroundImage: {
+        hero: "url('/public/images/beans-and-press-trimmed.jpg')",
+      },
     },
   },
   plugins: [],

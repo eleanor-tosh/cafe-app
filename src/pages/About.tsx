@@ -3,9 +3,9 @@ import React from 'react'
 
 function About() {
   return (
-<div className="container mx-auto"> 
+<div className="container mx-auto py-20"> 
 
-      <div className="py-32 px-60" id="about-section">
+      <div className="py-40 px-20" id="about-section">
         <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">About</h1>
           <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">
             Broko Bean was named the Best Cafe at the inaugural 2022 Otago Hospitality Awards, which we were ecstatic to accept along with our award for outstanding barista. 

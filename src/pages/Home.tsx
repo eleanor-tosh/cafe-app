@@ -5,7 +5,7 @@ function Home() {
   return (
 <div className="container mx-auto" id="home-section" >
 
-    <div className="py-32 px-60">
+    <div className="pb-40 pt-32 px-20">
       <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Broko Bean, a little cafe with a big heart. Come and visit us for the best coffee you will experience in Dunedin.</h1>
         <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">We welcome all and can cater to most food allergies/intolerances. Dog friendly. No smoking. Wheelchair accessable. Outdoor seating area with cover and heating for those colder days.
         <br></br>

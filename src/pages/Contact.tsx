@@ -3,15 +3,15 @@ import React from 'react'
 
 function Contact() {
   return (
-<div className="container mx-auto"> 
+<div className="container mx-auto py-20"> 
 
-    <div className="pt-32 pb-10 px-60" id="contact-section">
+    <div className="py-40 pb-10 px-20" id="contact-section">
       <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Contact</h1>
     </div>
 
     <div className='grid grid-cols-2'>
       <div>
-        <img src='/images/end.jpg' alt="Coffee beans, ground coffee, and made coffee" className="w-full"></img>
+        <img src='/images/end.jpg' alt="Coffee beans, ground coffee, and made coffee" className="w-full pb-10"></img>
       </div>
 
       <div>

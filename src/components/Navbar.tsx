@@ -26,7 +26,7 @@ duration={500}>Menu</Link></li>
 activeClass="active" 
 to="home-section" 
 spy={true} 
-offset={-150}
+offset={-300}
 smooth={true} 
 duration={500}>
             <img

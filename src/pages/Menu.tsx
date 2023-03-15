@@ -3,9 +3,9 @@ import React from 'react'
 
 function Menu() {
   return (
-<div className="container mx-auto"> 
+<div className="container mx-auto py-20"> 
 
-      <div className="pt-32 px-60" id="menu-section">
+      <div className="pt-40 px-20" id="menu-section">
         <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Menu</h1>
           <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed"> We source most of our ingredients locally and also use our neighbours at the Otago Farmers Market, Evansdale Cheese, Cairnmuir Central Otago olive oil & fresh fruit & vegetables throughout our changing seasons.
           <br></br>
@@ -13,7 +13,7 @@ function Menu() {
           Our cabinet is always stocked with a full range of sweet and savouury treats. Don't miss our Award Winning Chocolate Caramel Brownie, dog-safe treats and puppuccino available on request.</p>
       </div>
 
-<div className="pb-32 px-40">
+<div className="pb-32 px-20">
       <p className="font-bold text-text-grey font-serif text-xl p-5 leading-relaxed underline">All Day Menu:</p>
       <div className="grid grid-cols-2">
         <div>

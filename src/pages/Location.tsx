@@ -3,9 +3,9 @@ import React from 'react'
 
 function Location() {
   return (
-<div className="container mx-auto"> 
+<div className="container mx-auto py-20"> 
 
-      <div className="py-32 px-60" id="location-section">
+      <div className="py-40 px-20" id="location-section">
         <h1 className="font-bold text-bean font-serif text-3xl leading-relaxed">Location</h1>
           <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">Conveniently located near of of Dunedins amazing beaches. Bring the entire family (dog included) for an afternoon out.
           </p>
@@ -13,7 +13,7 @@ function Location() {
         <div className='p-10'><p className="font-bold text-text-grey font-serif text-xl leading-relaxed">We have plenty of offstreet parking in our private carpark.
           </p>
           <h1 className="font-bold text-bean font-serif text-xl pt-5 leading-relaxed">Physical Address:</h1>
-          <p className="font-bold text-text-grey font-serif text-xl leading-relaxed">123 Fake Avenue, <br></br>St Kilda, <br></br>Dunedin <br></br>New Zealand</p> 
+          <p className="font-bold text-text-grey font-serif text-xl leading-relaxed">123 Fake Street, <br></br>St Kilda, <br></br>Dunedin <br></br>New Zealand</p> 
         </div>
 
 

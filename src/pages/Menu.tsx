@@ -40,7 +40,7 @@ smoked cheese, tomato mild chilli jam, gherkin, & served with fries.</p>
 </div>
      
 
-  <img src='/images/stabbed.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="w-full"></img>
+  <img src='/images/stabbed.jpg' alt="Burger with a knife stuck in it" className="w-full"></img>
 
 
 </div>

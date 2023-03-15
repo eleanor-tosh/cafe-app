@@ -11,7 +11,7 @@ function Contact() {
 
     <div className='grid grid-cols-2'>
       <div>
-        <img src='/images/end.jpg' alt="Coffee beans, ground coffee, press and coffee" className="w-full"></img>
+        <img src='/images/end.jpg' alt="Coffee beans, ground coffee, and made coffee" className="w-full"></img>
       </div>
 
       <div>

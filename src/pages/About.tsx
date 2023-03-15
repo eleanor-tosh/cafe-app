@@ -23,7 +23,7 @@ function About() {
   </div>
   <div className="grid grid-rows-2 p-5 content-between">
   <img src='/images/pour2.jpg' alt="The best coffee pour" className="j"></img>
-  <img src='/images/cups2.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="mb-0 mt-auto"></img>
+  <img src='/images/cups2.jpg' alt="A group of cups of coffee" className="mb-0 mt-auto"></img>
   </div>
 </div>
   

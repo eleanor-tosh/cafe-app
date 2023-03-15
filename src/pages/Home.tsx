@@ -10,7 +10,8 @@ function Home() {
         <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed">We welcome all and can cater to most food allergies/intolerances. Dog friendly. No smoking. Wheelchair accessable. Outdoor seating area with cover and heating for those colder days.
         <br></br>
         <br></br>
-        Opening Hours:
+        <p className="font-bold text-bean font-serif text-xl underline leading-relaxed">
+        Opening Hours:</p>
         <ul>
           <li>Weekdays: 7am-6pm</li>
           <li>Saturday: 7am-10pm</li>

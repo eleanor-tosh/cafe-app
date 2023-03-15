@@ -13,7 +13,16 @@ function About() {
           Our dog-friendly outdoor seating area means you can bring along your best friend to enjoy a puppuccino and choose from a selection of dog-friendly treats (including grain-free options).</p>
       </div>
 
-  <img src='/images/beans-and-press-trimmed.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="w-full"></img>
+<div className='grid grid-cols-2'>
+  <div>
+    <img src='/images/lights2.jpg' alt="Lights in the cafe" className="p-5"></img>
+  </div>
+  <div className="grid grid-rows-2 p-5 content-between">
+  <img src='/images/pour2.jpg' alt="The best coffee pour" className="j"></img>
+  <img src='/images/cups2.jpg' alt="Coffee beans, ground coffee, press and coffee on wooden boards" className="mb-0 mt-auto"></img>
+  </div>
+</div>
+  
 
 
 </div>

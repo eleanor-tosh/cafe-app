@@ -10,7 +10,7 @@ function Menu() {
           <p className="font-bold text-text-grey font-serif text-xl p-10 leading-relaxed"> We source most of our ingredients locally and also use our neighbours at the Otago Farmers Market, Evansdale Cheese, Cairnmuir Central Otago olive oil & fresh fruit & vegetables throughout our changing seasons.
           <br></br>
           <br></br>
-          Our cabinet is always stocked with a full range of sweet and savouury treats. Don't miss our Award Winning Chocolate Caramel Brownie, dog-safe treats and puppuccino available on request.</p>
+          Our cabinet is always stocked with a full range of sweet and savouury treats. Don't miss our Award Winning Chocolate Caramel Brownie, dog-safe treats and puppuccino available on request. We welcome all and can cater to most food allergies/intolerances.</p>
       </div>
 
 <div className="pb-32 px-20">

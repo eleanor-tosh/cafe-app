@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 function Navbar() {
   return (
-<div className='container flex flex-wrap items-center justify-center mx-auto bg-grey-ish border-b-2 border-text-grey py-3 mb-10 sticky top-0'>
+<div className='container flex flex-wrap items-center justify-center mx-auto bg-grey-ish border-b-2 border-text-grey py-3 sticky top-0'>
 
 <ul className='flex flex-row items-center'>
   <li className='p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default'><Link 

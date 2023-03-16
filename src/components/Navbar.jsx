@@ -32,7 +32,7 @@ function Navbar() {
 
       <nav className={`${open ? 'block' : 'hidden'}`}>
         <ul className="md:flex md:flex-row md:items-center">
-          <li className="p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="about-section"
@@ -45,7 +45,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="menu-section"
@@ -75,7 +75,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="location-section"
@@ -88,7 +88,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="contact-section"

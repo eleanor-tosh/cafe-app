@@ -17,12 +17,12 @@ function About() {
           </p>
       </div>
 
-      <div className='grid grid-cols-2'>
+      <div className='md:grid grid-cols-2'>
         <div>
           <img src='/images/lights2.jpg' alt="Lights in the cafe" className="p-5"></img>
         </div>
-        <div className="grid grid-rows-2 p-5 content-between">
-          <img src='/images/pour2.jpg' alt="The best coffee pour" className="j"></img>
+        <div className="md:grid grid-rows-2 p-5 content-between">
+          <img src='/images/pour2.jpg' alt="The best coffee pour" className="mb-10 md:mb-2"></img>
           <img src='/images/cups2.jpg' alt="A group of cups of coffee" className="mb-0 mt-auto"></img>
         </div>
       </div>

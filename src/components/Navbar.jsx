@@ -9,11 +9,20 @@ function Navbar() {
   return (
     <div className="container md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey py-3 sticky top-0">
       <div className="flex flex-row justify-between">
-        <img
-          src="/images/Brokologo.jpg"
-          className="h-20 mr-3 md:hidden inline"
-          alt="Broko Bean Logo"
-        />
+        <Link
+          activeClass="active"
+          to="home-section"
+          spy={true}
+          offset={-300}
+          smooth={true}
+          duration={500}
+        >
+          <img
+            src="/images/Brokologo.jpg"
+            className="h-20 mr-3 md:hidden inline"
+            alt="Broko Bean Logo"
+          />
+        </Link>
         <FiMenu
           className="md:hidden text-2xl m-10 cursor-pointer"
           onClick={() => setOpen(!open)}

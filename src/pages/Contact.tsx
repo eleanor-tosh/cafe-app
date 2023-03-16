@@ -15,7 +15,7 @@ function Contact() {
           </div>
 
           <div>
-            <p className="font-bold text-text-grey font-serif text-xl p-10 mb-10 leading-relaxed">Call us on +64 03 452 7885, email brokobean@cafe.com, or fill in the form below. 
+            <p className="font-medium text-text-grey font-serif text-xl p-10 mb-10 leading-relaxed">Call us on +64 03 452 7885, email brokobean@cafe.com, or fill in the form below. 
             <br></br>
             We will get back to you as soon as we can during our business hours.</p>
             

@@ -3,8 +3,10 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className=" mx-auto" id="home-section" >
-        <div className="bg-hero bg-cover bg-center">
+    <div id="home-section" >
+      <div className="bg-hero bg-cover bg-center">
+        <div className="xl:flex flex-row">
+          <div className='basis-1/6'></div>
           <div className='flex items-center justify-left w-full py-12'>
             <div className="text-left">
               <h1 className="font-bold text-white font-serif text-3xl md:text-7xl leading-relaxed w-5/6 px-10 md:px-20">For the best coffee in Dunedin, visit Broko Bean.</h1>
@@ -17,7 +19,9 @@ function Home() {
                   </ul>
             </div>
           </div>
-        </div>
+          <div className='basis-1/6'></div>
+        </div> 
+      </div>
     </div>
   )
 }

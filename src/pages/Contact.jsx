@@ -23,7 +23,7 @@ function Contact() {
         .max(20, 'Subject must be 20 characters or less.')
         .required('Subject is required.'),
       message: Yup.string()
-        .max(200, 'Email must be 200 characters or less.')
+        .max(500, 'Email must be 500 characters or less.')
         .required('Message is required.'),
     }),
 
@@ -50,7 +50,7 @@ function Contact() {
         </div>
 
         <div>
-          <p className="font-medium text-text-grey font-serif text-xl p-10 mb-10 leading-relaxed">
+          <p className="font-medium text-text-grey font-serif text-xl p-10 leading-relaxed">
             Call us on +64 03 452 7885, email brokobean@cafe.com, or fill in the
             form below.
             <br></br>
@@ -79,7 +79,7 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="name"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium"
+                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
                 ></input>
               </label>
             </div>
@@ -105,7 +105,7 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="email"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium"
+                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
                 ></input>
               </label>
             </div>
@@ -121,7 +121,7 @@ function Contact() {
                   name="phone"
                   type="number"
                   placeholder="phone"
-                  className="border rounded p-2 m-5 md:w-full"
+                  className="border rounded p-2 m-5 md:w-full font-medium mb-20"
                 ></input>
               </label>
             </div> */}
@@ -147,7 +147,7 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="subject"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium"
+                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
                 ></input>
               </label>
             </div>
@@ -173,12 +173,13 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="message"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium"
+                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
                 />
               </label>
             </div>
 
             <button
+              onClick={formik.handleReset}
               type="submit"
               className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded my-5 mx-10"
             >

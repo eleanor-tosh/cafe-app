@@ -26,8 +26,9 @@ function Contact() {
         .required('Message is required.'),
     }),
 
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       console.log(values)
+      resetForm({ values: '' })
     },
   })
 
@@ -162,7 +163,6 @@ function Contact() {
             </div>
 
             <button
-              onClick={formik.handleReset}
               type="submit"
               className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded my-5 mx-10"
             >

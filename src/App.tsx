@@ -19,7 +19,6 @@ function App() {
         <Location />
         <Contact />
       <div>
-
         <Footer />
       </div>
       </div>

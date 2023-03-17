@@ -1,4 +1,3 @@
-import { stripBasename } from '@remix-run/router'
 import React from 'react'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
@@ -109,22 +108,6 @@ function Contact() {
                 ></input>
               </label>
             </div>
-
-            {/* <div>
-              <label
-                for="phone"
-                className="font-bold text-bean font-serif text-xl p-10 leading-relaxed"
-              >
-                Phone:
-                <input
-                  id="phone"
-                  name="phone"
-                  type="number"
-                  placeholder="phone"
-                  className="border rounded p-2 m-5 md:w-full font-medium mb-20"
-                ></input>
-              </label>
-            </div> */}
 
             <div>
               <label

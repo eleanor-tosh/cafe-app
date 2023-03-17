@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Menu from './pages/Menu'
 import Location from './pages/Location'
-import Contact from './pages/Contact'
+import Contact from './pages/Contact.jsx'
 
 function App() {
   return (

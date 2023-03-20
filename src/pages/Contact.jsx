@@ -152,7 +152,7 @@ function Contact() {
 
             <button
               type="submit"
-              className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded"
+              className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded ml-10 md:ml-0"
             >
               Send
             </button>

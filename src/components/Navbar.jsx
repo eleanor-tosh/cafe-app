@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(true)
 
   return (
-    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey md:py-3 sticky top-0">
+    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey sticky top-0">
       <div className="flex flex-row justify-between">
         <Link
           activeClass="active"
@@ -69,7 +69,7 @@ function Navbar() {
             >
               <img
                 src="/images/Brokologo.jpg"
-                className="h-44 mr-3"
+                className="h-44"
                 alt="Broko Bean Logo"
               />
             </Link>

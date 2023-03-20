@@ -13,17 +13,17 @@ function Contact() {
 
     validationSchema: Yup.object({
       name: Yup.string()
-        .max(20, 'Name must be 20 characters or less.')
-        .required('Name is required.'),
+        .max(20, 'Name must be 20 characters or less')
+        .required('Name is required'),
       email: Yup.string()
         .email('Invalid email address')
-        .required('Email is required.'),
+        .required('Email is required'),
       subject: Yup.string()
-        .max(20, 'Subject must be 20 characters or less.')
-        .required('Subject is required.'),
+        .max(20, 'Subject must be 20 characters or less')
+        .required('Subject is required'),
       message: Yup.string()
-        .max(500, 'Email must be 500 characters or less.')
-        .required('Message is required.'),
+        .max(500, 'Email must be 500 characters or less')
+        .required('Message is required'),
     }),
 
     onSubmit: (values, { resetForm }) => {
@@ -58,18 +58,12 @@ function Contact() {
           </p>
 
           <form onSubmit={formik.handleSubmit} className="md:px-24">
-            <div>
+            <div className="pb-10 flex md:block">
               <label
                 for="name"
-                className={`font-bold text-bean font-serif text-xl p-10 leading-relaxed ${
-                  formik.touched.name && formik.errors.name
-                    ? 'text-red-400'
-                    : ''
-                }`}
+                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
-                {formik.touched.name && formik.errors.name
-                  ? formik.errors.name
-                  : 'Name:'}
+                Name<p className="text-red-400 inline">*</p>
                 <input
                   id="name"
                   name="name"
@@ -77,25 +71,22 @@ function Contact() {
                   value={formik.values.name}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  placeholder="name"
+                  placeholder="Name"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
+                  className="border rounded p-2 w-full font-medium"
                 ></input>
+                <div className="font-medium text-red-400 text-right md:mx-0">
+                  {formik.touched.name && formik.errors.name}
+                </div>
               </label>
             </div>
 
-            <div>
+            <div className="pb-10 flex md:block">
               <label
                 for="email"
-                className={`font-bold text-bean font-serif text-xl p-10 leading-relaxed ${
-                  formik.touched.email && formik.errors.email
-                    ? 'text-red-400'
-                    : ''
-                }`}
+                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
-                {formik.touched.email && formik.errors.email
-                  ? formik.errors.email
-                  : 'Email:'}
+                Email<p className="text-red-400 inline">*</p>
                 <input
                   id="email"
                   name="email"
@@ -103,25 +94,22 @@ function Contact() {
                   value={formik.values.email}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  placeholder="email"
+                  placeholder="Email"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
+                  className="border rounded p-2 w-full font-medium"
                 ></input>
+                <div className="font-medium text-red-400 text-right md:mx-0">
+                  {formik.touched.email && formik.errors.email}
+                </div>
               </label>
             </div>
 
-            <div>
+            <div className="pb-10 flex md:block">
               <label
                 for="subject"
-                className={`font-bold text-bean font-serif text-xl p-10 leading-relaxed ${
-                  formik.touched.subject && formik.errors.subject
-                    ? 'text-red-400'
-                    : ''
-                }`}
+                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
-                {formik.touched.subject && formik.errors.subject
-                  ? formik.errors.subject
-                  : 'Subject:'}
+                Subject<p className="text-red-400 inline">*</p>
                 <input
                   id="subject"
                   name="subject"
@@ -129,25 +117,22 @@ function Contact() {
                   value={formik.values.subject}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  placeholder="subject"
+                  placeholder="Subject"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
+                  className="border rounded p-2 w-full font-medium"
                 ></input>
+                <div className="font-medium text-red-400 text-right md:mx-0">
+                  {formik.touched.subject && formik.errors.subject}
+                </div>
               </label>
             </div>
 
-            <div>
+            <div className="pb-10 flex md:block">
               <label
                 for="message"
-                className={`font-bold text-bean font-serif text-xl p-10 leading-relaxed ${
-                  formik.touched.message && formik.errors.message
-                    ? 'text-red-400'
-                    : ''
-                }`}
+                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
-                {formik.touched.message && formik.errors.message
-                  ? formik.errors.message
-                  : 'Message:'}
+                Message<p className="text-red-400 inline">*</p>
                 <textarea
                   id="message"
                   name="message"
@@ -155,16 +140,19 @@ function Contact() {
                   value={formik.values.message}
                   onChange={formik.handleChange}
                   onBlur={formik.handleBlur}
-                  placeholder="message"
+                  placeholder="Message"
                   required
-                  className="border rounded p-2 m-5 md:w-full font-medium mb-10"
+                  className="border rounded p-2 w-full font-medium"
                 />
+                <div className="font-medium text-red-400 text-right md:mx-0">
+                  {formik.touched.message && formik.errors.message}
+                </div>
               </label>
             </div>
 
             <button
               type="submit"
-              className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded my-5 mx-10"
+              className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded"
             >
               Send
             </button>

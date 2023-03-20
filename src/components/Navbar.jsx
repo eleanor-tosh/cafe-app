@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(true)
 
   return (
-    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey py-3 sticky top-0">
+    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey md:py-3 sticky top-0">
       <div className="flex flex-row justify-between">
         <Link
           activeClass="active"
@@ -24,7 +24,7 @@ function Navbar() {
           />
         </Link>
         <FiMenu
-          className="md:hidden text-2xl m-10 cursor-pointer"
+          className="md:hidden text-2xl m-5 cursor-pointer"
           onClick={() => setOpen(!open)}
         ></FiMenu>
       </div>
@@ -37,7 +37,7 @@ function Navbar() {
               activeClass="active"
               to="about-section"
               spy={true}
-              offset={-150}
+              offset={-50}
               smooth={true}
               duration={500}
             >
@@ -50,7 +50,7 @@ function Navbar() {
               activeClass="active"
               to="menu-section"
               spy={true}
-              offset={-150}
+              offset={-50}
               smooth={true}
               duration={500}
             >
@@ -80,7 +80,7 @@ function Navbar() {
               activeClass="active"
               to="location-section"
               spy={true}
-              offset={-150}
+              offset={-50}
               smooth={true}
               duration={500}
             >
@@ -93,7 +93,7 @@ function Navbar() {
               activeClass="active"
               to="contact-section"
               spy={true}
-              offset={-150}
+              offset={-50}
               smooth={true}
               duration={500}
             >

@@ -71,7 +71,7 @@ function Contact() {
                     value={formik.values.name}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    placeholder="Name"
+                    placeholder="Put your name here"
                     required
                     className={`border rounded p-2 w-full font-medium ${
                       formik.touched.name && formik.errors.name
@@ -98,7 +98,7 @@ function Contact() {
                     value={formik.values.email}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    placeholder="Email"
+                    placeholder="Email@email.com"
                     required
                     className={`border rounded p-2 w-full font-medium ${
                       formik.touched.email && formik.errors.email
@@ -125,7 +125,7 @@ function Contact() {
                     value={formik.values.subject}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    placeholder="Subject"
+                    placeholder="I'm contacting Broko Bean about..."
                     required
                     className={`border rounded p-2 w-full font-medium ${
                       formik.touched.subject && formik.errors.subject
@@ -152,7 +152,7 @@ function Contact() {
                     value={formik.values.message}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    placeholder="Message"
+                    placeholder="My message is..."
                     required
                     className={`border rounded p-2 w-full font-medium ${
                       formik.touched.message && formik.errors.message

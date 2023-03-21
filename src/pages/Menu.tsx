@@ -4,7 +4,7 @@ import React from 'react'
 function Menu() {
   return (
     <div>
-      <div className="container mx-auto md:py-20"> 
+      <div className="container mx-auto md:pt-36"> 
         <div className="pt-20 md:pt-40 md:px-20" id="menu-section">
           <h1 className="font-bold text-coffee-brown text-center font-serif text-3xl leading-relaxed">Menu</h1>
             <p className="font-medium text-text-grey font-serif text-xl p-10 leading-relaxed"> We source most of our ingredients locally and also use our neighbours at the Otago Farmers Market, Evansdale Cheese, Cairnmuir Central Otago olive oil & fresh fruit & vegetables throughout our changing seasons.
@@ -36,7 +36,7 @@ function Menu() {
             <h2 className='font-medium text-bean font-serif text-lg px-10 py-5 leading-relaxed text-center italic'>A range of 2-3 seasonal menu items will be added depending on locally sources produce, call or visit to find out more.</h2></div>
           </div>
         </div>
-      <img src='/images/stabbed.jpg' alt="Burger with a knife stuck in it" className="w-full"></img>
+      <img src='/images/stabbed.jpg' alt="Burger with a knife stuck in it" className="w-full md:pt-40"></img>
     </div>
   )
 }

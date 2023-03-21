@@ -5,7 +5,7 @@ function Menu() {
   return (
     <div>
       <div className="container mx-auto md:py-20"> 
-        <div className="pt-20 md:pt-40 md:px-20" id="menu-section">
+        <div className="pt-20 md:pt-20 md:px-20" id="menu-section">
           <h1 className="font-bold text-coffee-brown text-center font-serif text-3xl leading-relaxed">Menu</h1>
             <p className="font-medium text-text-grey font-serif text-xl p-10 leading-relaxed"> We source most of our ingredients locally and also use our neighbours at the Otago Farmers Market, Evansdale Cheese, Cairnmuir Central Otago olive oil & fresh fruit & vegetables throughout our changing seasons.
             <br></br>
@@ -13,8 +13,8 @@ function Menu() {
             Our cabinet is always stocked with a full range of sweet and savouury treats. Don't miss our Award Winning Chocolate Caramel Brownie, dog-safe treats and puppuccino available on request. We welcome all and can cater to most food allergies/intolerances.</p>
         </div>
 
-      <div className="pb-32 md:px-20">
-        <h2 className="font-bold text-coffee-brown font-serif text-xl p-5 leading-relaxed underline">All Day Menu:</h2>
+        <div className="pb-10 md:px-20">
+          <h2 className="font-bold text-coffee-brown font-serif text-xl p-5 leading-relaxed underline">All Day Menu:</h2>
           <div className="md:grid grid-cols-2">
             <div>
               <h2 className='font-medium text-bean font-serif text-lg px-10 pt-5 leading-relaxed'>Free Range Eggs on Toast</h2><p className="font-medium text-text-grey font-serif text-lg pb-5 px-10 leading-relaxed"> - Any style on toasted ciabatta.</p>

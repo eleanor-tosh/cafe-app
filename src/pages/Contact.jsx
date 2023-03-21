@@ -125,7 +125,7 @@ function Contact() {
                     value={formik.values.subject}
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
-                    placeholder="I'm contacting Broko Bean about..."
+                    placeholder="I'm contacting about..."
                     required
                     className={`border rounded p-2 w-full font-medium ${
                       formik.touched.subject && formik.errors.subject

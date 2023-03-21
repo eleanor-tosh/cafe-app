@@ -33,7 +33,7 @@ function Contact() {
   })
 
   return (
-    <div className="container mx-auto md:py-20">
+    <div className="container mx-auto md:pt-20">
       <div className="pt-20 md:py-40 md:px-20" id="contact-section">
         <h1 className="pb-10 font-bold text-coffee-brown text-center font-serif text-3xl leading-relaxed">
           Contact

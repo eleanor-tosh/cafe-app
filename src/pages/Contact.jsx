@@ -73,7 +73,11 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="Name"
                   required
-                  className="border rounded p-2 w-full font-medium"
+                  className={`border rounded p-2 w-full font-medium ${
+                    formik.touched.name && formik.errors.name
+                      ? 'border-red-400'
+                      : ''
+                  }`}
                 ></input>
                 <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.name && formik.errors.name}
@@ -96,7 +100,11 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="Email"
                   required
-                  className="border rounded p-2 w-full font-medium"
+                  className={`border rounded p-2 w-full font-medium ${
+                    formik.touched.email && formik.errors.email
+                      ? 'border-red-400'
+                      : ''
+                  }`}
                 ></input>
                 <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.email && formik.errors.email}
@@ -119,7 +127,11 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="Subject"
                   required
-                  className="border rounded p-2 w-full font-medium"
+                  className={`border rounded p-2 w-full font-medium ${
+                    formik.touched.subject && formik.errors.subject
+                      ? 'border-red-400'
+                      : ''
+                  }`}
                 ></input>
                 <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.subject && formik.errors.subject}
@@ -142,7 +154,11 @@ function Contact() {
                   onBlur={formik.handleBlur}
                   placeholder="Message"
                   required
-                  className="border rounded p-2 w-full font-medium"
+                  className={`border rounded p-2 w-full font-medium ${
+                    formik.touched.message && formik.errors.message
+                      ? 'border-red-400'
+                      : ''
+                  }`}
                 />
                 <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.message && formik.errors.message}

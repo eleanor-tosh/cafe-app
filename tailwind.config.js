@@ -7,6 +7,7 @@ module.exports = {
         'grey-ish': '#e6e3de',
         'text-grey': '#5f5b5a',
         bean: '#c98d50',
+        'coffee-brown': '#643927',
       },
       backgroundImage: {
         hero: "url('/public/images/beans-and-press-trimmed.jpg')",

@@ -14,16 +14,16 @@ function Contact() {
     validationSchema: Yup.object({
       name: Yup.string()
         .max(20, 'Name must be 20 characters or less')
-        .required('Name is required'),
+        .required('Field is required'),
       email: Yup.string()
         .email('Invalid email address')
-        .required('Email is required'),
+        .required('Field is required'),
       subject: Yup.string()
         .max(20, 'Subject must be 20 characters or less')
-        .required('Subject is required'),
+        .required('Field is required'),
       message: Yup.string()
         .max(500, 'Email must be 500 characters or less')
-        .required('Message is required'),
+        .required('Field is required'),
     }),
 
     onSubmit: (values, { resetForm }) => {
@@ -35,7 +35,7 @@ function Contact() {
   return (
     <div className="container mx-auto py-20">
       <div className="py-40 pb-10 md:px-20" id="contact-section">
-        <h1 className="font-bold text-bean text-center font-serif text-3xl leading-relaxed">
+        <h1 className="font-bold text-coffee-brown text-center font-serif text-3xl leading-relaxed">
           Contact
         </h1>
       </div>
@@ -61,7 +61,7 @@ function Contact() {
             <div className="pb-10 flex md:block">
               <label
                 for="name"
-                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
+                className="font-bold text-coffee-brown font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
                 Name<p className="text-red-400 inline">*</p>
                 <input
@@ -75,7 +75,7 @@ function Contact() {
                   required
                   className="border rounded p-2 w-full font-medium"
                 ></input>
-                <div className="font-medium text-red-400 text-right md:mx-0">
+                <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.name && formik.errors.name}
                 </div>
               </label>
@@ -84,7 +84,7 @@ function Contact() {
             <div className="pb-10 flex md:block">
               <label
                 for="email"
-                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
+                className="font-bold text-coffee-brown font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
                 Email<p className="text-red-400 inline">*</p>
                 <input
@@ -98,7 +98,7 @@ function Contact() {
                   required
                   className="border rounded p-2 w-full font-medium"
                 ></input>
-                <div className="font-medium text-red-400 text-right md:mx-0">
+                <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.email && formik.errors.email}
                 </div>
               </label>
@@ -107,7 +107,7 @@ function Contact() {
             <div className="pb-10 flex md:block">
               <label
                 for="subject"
-                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
+                className="font-bold text-coffee-brown font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
                 Subject<p className="text-red-400 inline">*</p>
                 <input
@@ -121,7 +121,7 @@ function Contact() {
                   required
                   className="border rounded p-2 w-full font-medium"
                 ></input>
-                <div className="font-medium text-red-400 text-right md:mx-0">
+                <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.subject && formik.errors.subject}
                 </div>
               </label>
@@ -130,7 +130,7 @@ function Contact() {
             <div className="pb-10 flex md:block">
               <label
                 for="message"
-                className="font-bold text-bean font-serif text-xl px-10 md:px-0 leading-relaxed"
+                className="font-bold text-coffee-brown font-serif text-xl px-10 md:px-0 leading-relaxed"
               >
                 Message<p className="text-red-400 inline">*</p>
                 <textarea
@@ -144,7 +144,7 @@ function Contact() {
                   required
                   className="border rounded p-2 w-full font-medium"
                 />
-                <div className="font-medium text-red-400 text-right md:mx-0">
+                <div className="font-medium text-red-400 text-right md:mx-0 text-sm italic">
                   {formik.touched.message && formik.errors.message}
                 </div>
               </label>
@@ -152,7 +152,7 @@ function Contact() {
 
             <button
               type="submit"
-              className="bg-bean hover:bg-text-grey text-white font-bold py-2 px-10 rounded ml-10 md:ml-0"
+              className="bg-bean hover:bg-coffee-brown text-white font-bold py-2 px-10 rounded ml-10 md:ml-0"
             >
               Send
             </button>

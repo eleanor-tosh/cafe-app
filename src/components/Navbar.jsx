@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(true)
 
   return (
-    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-text-grey sticky top-0">
+    <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-coffee-brown sticky top-0">
       <div className="flex flex-row justify-between">
         <Link
           activeClass="active"
@@ -32,7 +32,7 @@ function Navbar() {
 
       <nav className={`${open ? 'block' : 'hidden'}`}>
         <ul className="md:flex md:flex-row md:items-center">
-          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="about-section"
@@ -45,7 +45,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="menu-section"
@@ -75,7 +75,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="location-section"
@@ -88,7 +88,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="p-4 md:p-8 font-bold text-text-grey font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
+          <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
               activeClass="active"
               to="contact-section"

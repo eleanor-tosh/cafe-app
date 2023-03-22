@@ -31,9 +31,10 @@ function Navbar() {
       <div></div>
 
       <nav className={`${open ? 'block' : 'hidden'}`}>
-        <ul className="md:flex md:flex-row md:items-center">
+        <ul className="md:flex md:flex-row md:items-center text-center">
           <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
+              className="px-20 md:px-4"
               activeClass="active"
               to="about-section"
               spy={true}
@@ -47,6 +48,7 @@ function Navbar() {
 
           <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
+              className="px-20 md:px-4"
               activeClass="active"
               to="menu-section"
               spy={true}
@@ -77,6 +79,7 @@ function Navbar() {
 
           <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
+              className="px-20 md:px-4"
               activeClass="active"
               to="location-section"
               spy={true}
@@ -90,6 +93,7 @@ function Navbar() {
 
           <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link
+              className="px-20 md:px-4"
               activeClass="active"
               to="contact-section"
               spy={true}

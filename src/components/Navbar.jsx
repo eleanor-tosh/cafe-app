@@ -4,7 +4,7 @@ import { FiMenu } from 'react-icons/fi'
 import { useState } from 'react'
 
 function Navbar() {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   return (
     <div className=" md:flex flex-wrap items-center justify-center md:mx-auto bg-grey-ish border-b-2 border-coffee-brown sticky top-0">
@@ -30,7 +30,7 @@ function Navbar() {
       </div>
       <div></div>
 
-      <nav className={`${open ? 'block' : 'hidden'}`}>
+      <nav className={`md:block ${open ? 'block' : 'hidden'}`}>
         <ul className="md:flex md:flex-row md:items-center text-center">
           <li className="p-4 md:p-8 font-bold text-coffee-brown font-serif active:text-bean hover:text-bean hover:cursor-default text-center">
             <Link

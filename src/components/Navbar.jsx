@@ -16,6 +16,7 @@ function Navbar() {
           offset={-300}
           smooth={true}
           duration={500}
+          onClick={() => setOpen(false)}
         >
           <img
             src="/images/Brokologo.jpg"
@@ -38,9 +39,10 @@ function Navbar() {
               activeClass="active"
               to="about-section"
               spy={true}
-              offset={-50}
+              offset={-100}
               smooth={true}
               duration={500}
+              onClick={() => setOpen(!open)}
             >
               About
             </Link>
@@ -52,9 +54,10 @@ function Navbar() {
               activeClass="active"
               to="menu-section"
               spy={true}
-              offset={-50}
+              offset={-100}
               smooth={true}
               duration={500}
+              onClick={() => setOpen(!open)}
             >
               Menu
             </Link>
@@ -83,9 +86,10 @@ function Navbar() {
               activeClass="active"
               to="location-section"
               spy={true}
-              offset={-50}
+              offset={-100}
               smooth={true}
               duration={500}
+              onClick={() => setOpen(!open)}
             >
               Location
             </Link>
@@ -97,9 +101,10 @@ function Navbar() {
               activeClass="active"
               to="contact-section"
               spy={true}
-              offset={-50}
+              offset={-100}
               smooth={true}
               duration={500}
+              onClick={() => setOpen(!open)}
             >
               Contact
             </Link>

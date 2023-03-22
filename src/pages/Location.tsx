@@ -4,7 +4,7 @@ import React from 'react'
 function Location() {
   return (
     <div className="container mx-auto md:pt-36"> 
-        <div className="pt-20 md:pt-40 md:px-20" id="location-section">
+        <div className="pt-52 md:pt-40 md:px-20" id="location-section">
           <h1 className="font-bold text-coffee-brown text-center font-serif text-3xl leading-relaxed">Location</h1>
             <p className="font-medium text-text-grey font-serif text-xl p-10 leading-relaxed">Conveniently located near one of Dunedins amazing beaches. Bring the entire family (dog included) for an afternoon out.
             </p>

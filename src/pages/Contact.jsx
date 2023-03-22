@@ -14,16 +14,16 @@ function Contact() {
     validationSchema: Yup.object({
       name: Yup.string()
         .max(20, 'Name must be 20 characters or less')
-        .required('Field is required'),
+        .required('Required field'),
       email: Yup.string()
         .email('Invalid email address')
-        .required('Field is required'),
+        .required('Required field'),
       subject: Yup.string()
         .max(20, 'Subject must be 20 characters or less')
-        .required('Field is required'),
+        .required('Required field'),
       message: Yup.string()
         .max(500, 'Email must be 500 characters or less')
-        .required('Field is required'),
+        .required('Required field'),
     }),
 
     onSubmit: (values, { resetForm }) => {
